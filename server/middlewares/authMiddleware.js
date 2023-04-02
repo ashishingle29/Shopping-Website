@@ -13,7 +13,6 @@ export const requireSignIn = async(req,res,next)=>{
 
     }
 }
-
 //admin access
 export const checkAdmin=async(req,res,next)=>{
     try {
