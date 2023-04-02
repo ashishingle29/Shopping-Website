@@ -1,0 +1,6 @@
+{
+"scripts": {
+    "git-commit":"git commit -m '[-_-]'",
+    "git-add":"git add ."
+  }
+}
