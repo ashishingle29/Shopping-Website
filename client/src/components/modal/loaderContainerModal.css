@@ -1,0 +1,22 @@
+.loader-screen{
+  background: #ffffffd2;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left:0;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .loader-container{
+  background:#282828ef;
+  color: #ededed;
+  width: 80%;
+  min-width:200px;
+  max-width: 800px;
+  box-shadow: 1px 1px 2px 0px #000;
+  border-radius: 3px;
+} */

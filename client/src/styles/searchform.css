@@ -1,0 +1,15 @@
+.search-form input {
+	margin: 0 !important;
+	border-radius: 5px 0 0 5px;
+	border-color: #198754;
+	border-right: none;
+}
+.search-form input:focus {
+	box-shadow: none;
+	border-color: #198754;
+	
+}
+.search-form button {
+	margin: 0 !important;
+	border-radius: 0 5px 5px 0;
+}

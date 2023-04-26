@@ -1,0 +1,47 @@
+nav{
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #afafaf;
+    border-bottom: 1px solid #807f7f ;
+}
+.nav-item{
+    /* width: max-content;     */
+    margin: auto;
+}
+.navbar-nav .dropdown-menu{
+    position: absolute;
+}
+.nav-link{
+    font-family:'Tilt Neon';
+    position:sticky;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 26px;
+}
+.navbar-nav li:hover{
+
+}
+
+.navbar-nav .active{
+    border-bottom: 2px solid #000;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    line-height:8px;
+    padding: 5px;
+    border: 2px solid #96d054;
+}
+
+.navbar-brand svg{
+    margin-left:-5px;
+    margin-top:-1px
+}
+@media only screen and (max-width:992px){
+        
+    .search-form{
+        margin: auto !important;
+        margin-top: 5px !important;
+    }
+}

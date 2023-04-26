@@ -1,0 +1,65 @@
+.carousel-admin .carousel-slider img{
+  height: 300px;
+  width: auto;
+}
+.carousel-admin .carousel-slider .legend{
+  background: #cacaca7e;
+  opacity: 1;
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 9px 7px 8px -1px rgba(127,127,127,0.52);
+  font-weight: bold;
+  font-size: 14px;
+}
+.carousel-admin .row.action-btns {
+	position: absolute;
+	top: 0;
+	right: 35px;
+  z-index: 999;
+  z-index: 1;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.carousel-admin .row.action-btns span.btn {
+	align-self: center;
+	justify-items: unset;
+	width: auto;
+	padding: 0;
+	margin: 6px;
+}
+.carousel-admin .thumbs-wrapper li{
+  width: 10% !important;
+}
+
+.carousel-home{
+}
+
+.carousel-home .carousel-slider img{
+  height: auto;
+  width: 100vw;
+}
+.carousel-home .thumbs-wrapper{
+  text-align: center;
+}
+
+.carousel-home .carousel .control-dots .dot {
+	box-shadow: 2px 2px 1px rgb(0, 0, 0);
+	background: #3fa576;
+	border-radius: 10%;
+	width: 12px;
+	height: 8px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.carousel-home .carousel-slider .legend{
+  background: #cacaca7e;
+  opacity: 1;
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 9px 7px 8px -1px rgba(127,127,127,0.52);
+  font-weight: bold;
+  font-size: 14px;
+  display: none;
+}
