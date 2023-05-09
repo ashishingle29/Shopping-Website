@@ -18,6 +18,7 @@ export const comparePassword=async(password,hashedPassword)=>{
 export const getRandomWords=async(size)=>{
     try {
         const document = await secretWordModel.findOne();
+        console.log(document, size );
         const randomItems = document.list.sort(() => 0.5 - Math.random()).slice(0, size);
         return randomItems;
     } catch (error) {
